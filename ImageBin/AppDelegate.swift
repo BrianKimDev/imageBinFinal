@@ -5,16 +5,22 @@
 //  Created by Brian Kim on 6/10/21.
 //
 
+//
+//  AppDelegate.swift
+//  DuoFinal
+//
+//  Created by Brian Kim on 5/13/21.
+//
+
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+ func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+     FirebaseApp.configure()
+     return true
     }
 
     // MARK: UISceneSession Lifecycle
