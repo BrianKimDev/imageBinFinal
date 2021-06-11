@@ -1,0 +1,6 @@
+framework module Pods_ImageBin {
+  umbrella header "Pods-ImageBin-umbrella.h"
+
+  export *
+  module * { export * }
+}
